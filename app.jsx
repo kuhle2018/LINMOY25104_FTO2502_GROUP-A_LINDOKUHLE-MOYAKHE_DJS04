@@ -1,9 +1,10 @@
-import './App.css';
+import PodcastsPage from './pages/PodcastsPage';
 
 function App() {
   return (
-    <div>
-      <h1>Podcast App Launch Successful 🚀</h1>
+    <div className="app-container">
+      <h1>🎧 Podcast Explorer</h1>
+      <PodcastsPage />
     </div>
   );
 }
